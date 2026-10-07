@@ -1,0 +1,51 @@
+{
+  "endofm": {
+    "mean_accuracy": 0.6630113215878293,
+    "mean_macro_f1": 0.19008524666523063,
+    "folds": [
+      {
+        "fold": "train=split0,test=split1",
+        "accuracy": 0.6521576763485477,
+        "macro_f1": 0.16104597992015793
+      },
+      {
+        "fold": "train=split1,test=split0",
+        "accuracy": 0.6738649668271107,
+        "macro_f1": 0.21912451341030337
+      }
+    ]
+  },
+  "random_init_control": {
+    "mean_accuracy": 0.1916141406277646,
+    "mean_macro_f1": 0.15848460851356752,
+    "folds": [
+      {
+        "fold": "train=split0,test=split1",
+        "accuracy": 0.2203191903464383,
+        "macro_f1": 0.1773950944476943
+      },
+      {
+        "fold": "train=split1,test=split0",
+        "accuracy": 0.16290909090909092,
+        "macro_f1": 0.13957412257944074
+      }
+    ]
+  },
+  "classes": [
+    "Angiectasia",
+    "Blood",
+    "Erosion",
+    "Erythematous",
+    "Foreign Bodies",
+    "Ileo-cecal valve",
+    "Lymphangiectasia",
+    "Normal",
+    "Pylorus",
+    "Reduced Mucosal View",
+    "Ulcer"
+  ],
+  "n_train_test_frames": {
+    "split_0": 23061,
+    "split_1": 24100
+  }
+}

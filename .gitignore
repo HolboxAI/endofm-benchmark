@@ -1,0 +1,18 @@
+# third-party model code: clone separately (see README) -- it has its own git history
+Endo-FM/
+
+# model weights and downloaded data
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.zip
+*.mp4
+data/kvasir-capsule-labeled-videos/
+
+# caches and OS / Office files
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+~$*
