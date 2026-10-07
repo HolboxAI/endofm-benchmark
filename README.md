@@ -53,17 +53,6 @@ endofm-benchmark/
    control, to isolate what the pretraining is actually buying.
 5. Reports accuracy, macro-F1, per-class breakdown, confusion matrix.
 
-## What it deliberately doesn't do
-
-The unlabeled videos (58.2GB) are **deprioritized for now, at the user's
-request** (a download of the unlabeled zip was started, then killed within
-seconds via a watcher process once it started writing, to avoid wasting
-bandwidth ahead of the labeled-video benchmark). They match the "DAPT:
-continued self-supervised pretraining on unlabeled video" step in
-`neurosurgery_notegen_architecture.md` (Layer 2), which is a separate, much
-larger undertaking (Endo-FM's own multi-crop DINO-style SSL loop) out of
-scope for a benchmark notebook. Re-download on request when that's next.
-
 ## Running on Google Colab
 
 The notebook auto-detects Colab in Section 0 (`try: import google.colab`) and
